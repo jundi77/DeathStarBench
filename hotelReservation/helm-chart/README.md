@@ -1,3 +1,5 @@
+TODO: rename entrypoint from :./ to :/
+
 # Hotel Reservation Microservices Helm Chart #
   
 # What is Helm Chart ##
