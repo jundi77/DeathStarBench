@@ -1,1 +1,2 @@
-sudo apt-get install -y wrk
+sudo apt-get install -y wrk luarocks luajit
+
