@@ -4,6 +4,15 @@ ports:
   - port: 5000
     targetPort: 5000
 
+ingress:
+  className: nginx
+  hosts:
+    - host: hotel-reservation.127.0.0.1.sslip.io
+      paths:
+        - path: /
+          type: Prefix
+          port: 5000
+
 container:
   command: frontend
   image: deathstarbench/hotel-reservation
